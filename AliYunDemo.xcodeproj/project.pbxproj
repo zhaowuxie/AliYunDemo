@@ -15,6 +15,7 @@
 		8D566513213F741B0042CAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D566511213F741B0042CAB3 /* LaunchScreen.storyboard */; };
 		8D56651E213F741C0042CAB3 /* AliYunDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56651D213F741C0042CAB3 /* AliYunDemoTests.swift */; };
 		8D566529213F741C0042CAB3 /* AliYunDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D566528213F741C0042CAB3 /* AliYunDemoUITests.swift */; };
+		A7859B9FFB1C289E6C4EA6F9 /* Pods_AliYunDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45F3FB79E0813D0DE0C3B74 /* Pods_AliYunDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E15C3938719581C15D5BD7E /* Pods-AliYunDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliYunDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliYunDemo/Pods-AliYunDemo.release.xcconfig"; sourceTree = "<group>"; };
+		875F7D40B97730705315ADA6 /* Pods-AliYunDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliYunDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliYunDemo/Pods-AliYunDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8D566503213F741B0042CAB3 /* AliYunDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliYunDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D566506213F741B0042CAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D566508213F741B0042CAB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		8D566524213F741C0042CAB3 /* AliYunDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliYunDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D566528213F741C0042CAB3 /* AliYunDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliYunDemoUITests.swift; sourceTree = "<group>"; };
 		8D56652A213F741C0042CAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45F3FB79E0813D0DE0C3B74 /* Pods_AliYunDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliYunDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7859B9FFB1C289E6C4EA6F9 /* Pods_AliYunDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35AB3A7D2F2A44241FAB8521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				875F7D40B97730705315ADA6 /* Pods-AliYunDemo.debug.xcconfig */,
+				6E15C3938719581C15D5BD7E /* Pods-AliYunDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7787FF5AE91A7EBF892DEEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B45F3FB79E0813D0DE0C3B74 /* Pods_AliYunDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D5664FA213F741B0042CAB3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				8D56651C213F741C0042CAB3 /* AliYunDemoTests */,
 				8D566527213F741C0042CAB3 /* AliYunDemoUITests */,
 				8D566504213F741B0042CAB3 /* Products */,
+				35AB3A7D2F2A44241FAB8521 /* Pods */,
+				7787FF5AE91A7EBF892DEEF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D56652D213F741C0042CAB3 /* Build configuration list for PBXNativeTarget "AliYunDemo" */;
 			buildPhases = (
+				9FE8552ADA1B4029CC98FCE1 /* 📦 Check Pods Manifest.lock */,
 				8D5664FF213F741B0042CAB3 /* Sources */,
 				8D566500213F741B0042CAB3 /* Frameworks */,
 				8D566501213F741B0042CAB3 /* Resources */,
+				173A70F7058781B77A455FE2 /* 📦 Embed Pods Frameworks */,
+				1183EFEB0F7DD9A58A3C46DA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1183EFEB0F7DD9A58A3C46DA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliYunDemo/Pods-AliYunDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		173A70F7058781B77A455FE2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliYunDemo/Pods-AliYunDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE8552ADA1B4029CC98FCE1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D5664FF213F741B0042CAB3 /* Sources */ = {
@@ -428,6 +503,7 @@
 		};
 		8D56652E213F741C0042CAB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875F7D40B97730705315ADA6 /* Pods-AliYunDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +519,7 @@
 		};
 		8D56652F213F741C0042CAB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E15C3938719581C15D5BD7E /* Pods-AliYunDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/IMLChannelCore/iot-mobichannelcore" "${PODS_ROOT}/IMSLog/IMSLog"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) WITH_TLS __APPLE__ WITH_THREADING
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/IMLChannelCore" "${PODS_ROOT}/Headers/Public/IMSLog" "${PODS_ROOT}/Headers/Public/OpenSSL"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OpenSSL/lib"
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/IMLChannelCore" -isystem "${PODS_ROOT}/Headers/Public/IMSLog" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"crypto" -l"ssl" -l"stdc++" -framework "AlinkIoTExpress" -framework "Foundation" -framework "IMSLog"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
