@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8D566507213F741B0042CAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D566506213F741B0042CAB3 /* AppDelegate.swift */; };
-		8D566509213F741B0042CAB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D566508213F741B0042CAB3 /* FirstViewController.swift */; };
-		8D56650B213F741B0042CAB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56650A213F741B0042CAB3 /* SecondViewController.swift */; };
 		8D56650E213F741B0042CAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D56650C213F741B0042CAB3 /* Main.storyboard */; };
 		8D566510213F741B0042CAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D56650F213F741B0042CAB3 /* Assets.xcassets */; };
 		8D566513213F741B0042CAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D566511213F741B0042CAB3 /* LaunchScreen.storyboard */; };
 		8D56651E213F741C0042CAB3 /* AliYunDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56651D213F741C0042CAB3 /* AliYunDemoTests.swift */; };
 		8D566529213F741C0042CAB3 /* AliYunDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D566528213F741C0042CAB3 /* AliYunDemoUITests.swift */; };
+		8D56653A213F82270042CAB3 /* DeviceMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D566539213F82270042CAB3 /* DeviceMainViewController.swift */; };
+		8D56653C213F82380042CAB3 /* AppMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56653B213F82380042CAB3 /* AppMainViewController.swift */; };
 		A7859B9FFB1C289E6C4EA6F9 /* Pods_AliYunDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45F3FB79E0813D0DE0C3B74 /* Pods_AliYunDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +40,6 @@
 		875F7D40B97730705315ADA6 /* Pods-AliYunDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliYunDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliYunDemo/Pods-AliYunDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8D566503213F741B0042CAB3 /* AliYunDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliYunDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D566506213F741B0042CAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D566508213F741B0042CAB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8D56650A213F741B0042CAB3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8D56650D213F741B0042CAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D56650F213F741B0042CAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D566512213F741B0042CAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +50,8 @@
 		8D566524213F741C0042CAB3 /* AliYunDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliYunDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D566528213F741C0042CAB3 /* AliYunDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliYunDemoUITests.swift; sourceTree = "<group>"; };
 		8D56652A213F741C0042CAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D566539213F82270042CAB3 /* DeviceMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMainViewController.swift; sourceTree = "<group>"; };
+		8D56653B213F82380042CAB3 /* AppMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainViewController.swift; sourceTree = "<group>"; };
 		B45F3FB79E0813D0DE0C3B74 /* Pods_AliYunDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliYunDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,13 +123,9 @@
 		8D566505213F741B0042CAB3 /* AliYunDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8D566506213F741B0042CAB3 /* AppDelegate.swift */,
-				8D566508213F741B0042CAB3 /* FirstViewController.swift */,
-				8D56650A213F741B0042CAB3 /* SecondViewController.swift */,
-				8D56650C213F741B0042CAB3 /* Main.storyboard */,
-				8D56650F213F741B0042CAB3 /* Assets.xcassets */,
-				8D566511213F741B0042CAB3 /* LaunchScreen.storyboard */,
-				8D566514213F741B0042CAB3 /* Info.plist */,
+				8D566538213F81730042CAB3 /* 公共 */,
+				8D566537213F81400042CAB3 /* 设备 */,
+				8D566536213F813B0042CAB3 /* APP */,
 			);
 			path = AliYunDemo;
 			sourceTree = "<group>";
@@ -150,6 +146,34 @@
 				8D56652A213F741C0042CAB3 /* Info.plist */,
 			);
 			path = AliYunDemoUITests;
+			sourceTree = "<group>";
+		};
+		8D566536213F813B0042CAB3 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				8D56653B213F82380042CAB3 /* AppMainViewController.swift */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		8D566537213F81400042CAB3 /* 设备 */ = {
+			isa = PBXGroup;
+			children = (
+				8D566539213F82270042CAB3 /* DeviceMainViewController.swift */,
+			);
+			path = "设备";
+			sourceTree = "<group>";
+		};
+		8D566538213F81730042CAB3 /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+				8D566506213F741B0042CAB3 /* AppDelegate.swift */,
+				8D56650C213F741B0042CAB3 /* Main.storyboard */,
+				8D56650F213F741B0042CAB3 /* Assets.xcassets */,
+				8D566511213F741B0042CAB3 /* LaunchScreen.storyboard */,
+				8D566514213F741B0042CAB3 /* Info.plist */,
+			);
+			path = "公共";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,9 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D56650B213F741B0042CAB3 /* SecondViewController.swift in Sources */,
+				8D56653C213F82380042CAB3 /* AppMainViewController.swift in Sources */,
 				8D566507213F741B0042CAB3 /* AppDelegate.swift in Sources */,
-				8D566509213F741B0042CAB3 /* FirstViewController.swift in Sources */,
+				8D56653A213F82270042CAB3 /* DeviceMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -493,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -508,7 +532,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWXF6GB4AV;
-				INFOPLIST_FILE = AliYunDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AliYunDemo/公共/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = canature.AliYunDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,7 +549,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWXF6GB4AV;
-				INFOPLIST_FILE = AliYunDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AliYunDemo/公共/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = canature.AliYunDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
