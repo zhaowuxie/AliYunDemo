@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlinkIoTExpress
 
 class AppMainViewController: UIViewController {
 
